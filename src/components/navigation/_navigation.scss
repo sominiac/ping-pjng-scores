@@ -1,0 +1,17 @@
+@import "../../styles/global/vars";
+
+.navigation {
+  padding: 1.5rem 3.5rem;
+  border-bottom: 1px solid $bordder-main-color;
+
+  &__link {
+    color: $main-color;
+    font-size: 2.4rem;
+    margin-right: 3rem;
+    cursor: pointer;
+
+    &:last-child {
+      margin-right: 0;
+    }
+  }
+}

@@ -1,0 +1,31 @@
+@import "../../styles/global/vars";
+
+.plays-list-item {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1.6rem 2.9rem 1.4rem 1.8rem;
+  border-bottom: 1px solid $border-main-color;
+
+  &__left-side {
+    margin-right: 1rem;
+  }
+  &__left-side,
+  &__right-side {
+    display: flex;
+  }
+  &__text {
+    font-size: 1.8rem;
+    color: #000000;
+  }
+  &__number {
+    margin-right: 3.5rem;
+  }
+  &__players-separator {
+    margin: 0 1.6rem;
+  }
+  &__score-separator {
+    margin: 0 0.4rem;
+  }
+}

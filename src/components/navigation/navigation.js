@@ -1,10 +1,15 @@
+import { Link } from "react-router-dom";
 import "./_navigation.scss";
 
 function Navigation() {
   return (
     <div className="navigation">
-      <span className="navigation__link">Все игры</span>
-      <span className="navigation__link">Новая игра</span>
+      <Link className="navigation__link" to={`/`}>
+        Все игры
+      </Link>
+      <Link className="navigation__link" to={`contacts/1`}>
+        Новая игра
+      </Link>
     </div>
   );
 }

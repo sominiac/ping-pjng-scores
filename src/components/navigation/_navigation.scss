@@ -1,8 +1,11 @@
 @import "../../styles/global/vars";
 
 .navigation {
-  padding: 1.5rem 3.5rem;
-  border-bottom: 1px solid $bordder-main-color;
+  height: $navigation-height;
+  padding: 0 3.5rem;
+  border-bottom: 1px solid $border-main-color;
+  display: flex;
+  align-items: center;
 
   &__link {
     color: $main-color;

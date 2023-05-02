@@ -1,0 +1,16 @@
+.plays-list {
+  &__content {
+    padding-top: 6.8rem;
+  }
+  &__empty-message {
+    width: 100%;
+    height: calc(100vh - $navigation-height);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  &__empty-message-text {
+    color: $main-color;
+    font-size: 3.2rem;
+  }
+}
